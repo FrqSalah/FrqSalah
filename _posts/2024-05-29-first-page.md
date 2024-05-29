@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
+tags: csharp programming designPattern
+categories: csharp patterns
 ---
 
 # Welcome
