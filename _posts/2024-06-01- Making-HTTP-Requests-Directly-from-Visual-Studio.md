@@ -5,9 +5,8 @@ tag: visual studio
 category: visual studio
 ---
 
-## The good news : 
-
-If you're like me tired of switching between your IDE and external tools like Postman to test your APIs? Visual Studio 2022 has a built-in solution that can revolutionize your development workflow: direct HTTP request support. This feature allows you to craft and send HTTP requests right from the comfort of your code editor, streamlining your development and debugging processes.
+If you're like me tired of switching between your IDE and external tools like Postman to test your APIs? 
+[Visual Studio 2022](https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0) has a built-in solution that can revolutionize your development workflow: direct HTTP request support. This feature allows you to craft and send HTTP requests right from the comfort of your code editor, streamlining your development and debugging processes.
 
 ## Why Make Requests Within Visual Studio 2022?
 
@@ -17,7 +16,7 @@ Project Context: Easily reference project variables, secrets, and settings withi
 - Collaboration: Share and version control your .http files along with your codebase.
 
 ## How to Get Started:
-1. Create an .http File: Right-click on your project in Solution Explorer, choose "Add" -> "New Item", and select "HTTP File" from the list.
+1. Create an `.http` File: Right-click on your project in Solution Explorer, choose "Add" -> "New Item", and select "HTTP File" from the list.
 
 2. Construct Your Request: Use standard HTTP syntax to define the method (GET, POST, PUT, DELETE), URL, headers, and request body (if needed).
 
@@ -25,15 +24,16 @@ Project Context: Easily reference project variables, secrets, and settings withi
 
 4. Send & Analyze: Click the "Send Request" button (green arrow) or press Ctrl+Alt+R to send the request. The response will appear neatly formatted in a separate pane, ready for analysis.
 
-5. Example: Fetching User Data (GET)
+5. Examples
 
-{% highlight json linenos %}
+- Fetching User Data (GET)
+
+```json
 HTTP
 GET https://api.example.com/users/123
 Authorization: Bearer YOUR_API_TOKEN 
-{% endhighlight %}
-
-Example: Creating a New Resource (POST)
+```
+- Creating a New Resource (POST)
 
 {% highlight json linenos %}
 HTTP
@@ -54,4 +54,6 @@ Content-Type: application/json
 
 - Secrets Management: Securely store API keys and other sensitive data using Visual Studio's Secret Manager.
 
-- Environments: Create and switch between environments (dev, staging, production) with different configuration settings using .env files.
+- Environments: 
+![Select enviroment for http requests](../_imgs/http-env-visualtudio.jpeg)
+Create and switch between environments (dev, staging, production) with different configuration settings using .env files.
