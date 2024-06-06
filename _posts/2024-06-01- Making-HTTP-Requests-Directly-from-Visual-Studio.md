@@ -6,9 +6,13 @@ category: visual studio
 ---
 
 If you're like me tired of switching between your IDE and external tools like Postman to test your APIs? 
-[Visual Studio 2022](https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0) has a built-in solution that can revolutionize your development workflow: direct HTTP request support. This feature allows you to craft and send HTTP requests right from the comfort of your code editor, streamlining your development and debugging processes.
+[Visual Studio 2022](https://learn.microsoft.com/en-us/aspnet/core/test/http-files?view=aspnetcore-8.0) has a built-in solution that can revolutionize your development workflow *direct HTTP request support*. This feature allows you to craft and send HTTP requests right from the comfort of your code editor, streamlining your development and debugging processes.
 
 ## Why Make Requests Within Visual Studio 2022?
+
+API testing is crucial for ensuring your development aligns with specifications.  While popular tools like Postman offer extensive features, they can be overkill for basic tasks. Why use a sledgehammer when a precise tool will do?  Simple HTTP request files stored in your code repository provide a lightweight, efficient way to test APIs.  Plus, they integrate seamlessly with your development workflow and enable effortless sharing across your entire team.
+
+Why use a sledgehammer when a precise tool will do?  Simple HTTP request files stored in your code repository provide a lightweight, efficient way to test APIs.  Plus, they integrate seamlessly with your development workflow and enable effortless sharing across your entire team.
 
 - Simplified Workflow: No more tab-switching madness. Keep your API tests and code in the same environment for a seamless experience.
 - Integrated Debugging: Leverage Visual Studio's powerful debugging tools to inspect requests, responses, and variables for faster troubleshooting.
@@ -57,3 +61,7 @@ Content-Type: application/json
 - Environments: 
 ![Select enviroment for http requests](../_imgs/http-env-visualtudio.jpeg)
 Create and switch between environments (dev, staging, production) with different configuration settings using .env files.
+
+Effective API testing doesn't have to break the bank.  While many tools boast comprehensive capabilities, they often come with hefty price tags and limitations on team collaboration.
+
+By using simple HTTP request files within your codebase, you can achieve robust API testing without the unnecessary expense.  This practical approach not only saves your budget but also fosters better collaboration by allowing seamless sharing across your entire development team.
