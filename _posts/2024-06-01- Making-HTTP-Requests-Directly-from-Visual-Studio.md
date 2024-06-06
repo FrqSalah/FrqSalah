@@ -59,8 +59,8 @@ Content-Type: application/json
 - Secrets Management: Securely store API keys and other sensitive data using Visual Studio's Secret Manager.
 
 - Environments: 
-![Select enviroment for http requests](../_imgs/http-env-visualtudio.jpeg)
 Create and switch between environments (dev, staging, production) with different configuration settings using .env files.
+![Select enviroment for http requests](../_imgs/http-env-visualtudio.jpeg)
 
 Effective API testing doesn't have to break the bank.  While many tools boast comprehensive capabilities, they often come with hefty price tags and limitations on team collaboration.
 
